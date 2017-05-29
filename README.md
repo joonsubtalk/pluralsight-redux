@@ -50,7 +50,7 @@ function mapStateToProps(state, ownProps) {
 
 ```
 export default connect(	// connect function used to connect component container to store
-	mapStateToProps,	// specify the state you want to expose to component
+	mapStateToProps,	// specify the state you want to expose to component: returns object
 	mapDispatchToProps	// specify the action you want to expose to component
 )(AuthorPage);
 

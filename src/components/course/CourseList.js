@@ -23,8 +23,8 @@ const CourseList = ({courses}) => {
     );
 };
 
-CourseList.prototype = {
-    courses: PropTypes.array.isRequired
+CourseList.propTypes = {
+    courses: React.PropTypes.array.isRequired
 };
 
 export default CourseList;
